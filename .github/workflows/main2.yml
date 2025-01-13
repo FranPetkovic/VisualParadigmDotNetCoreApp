@@ -1,0 +1,29 @@
+name: Build and Push Docker Image
+
+on:
+  push:
+    branches:
+      - main  # This triggers the workflow whenever there is a push to the 'main' branch
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v2
+        with:
+          username: franpetkovic
+          password: FranEva123
+
+      - name: Build and Push Docker Image
+        uses: docker/build-push-action@v2
+        with:
+          context: .  # The current directory where the Dockerfile is located
+          push: true  # Push the image to Docker Hub
+          tags: |
+            franpetkovic/franrgis:latest  # Tag 'latest' for the image
+            franpetkovic/franrgis:${{ github.sha }}  # Tag with the specific commit SHA
