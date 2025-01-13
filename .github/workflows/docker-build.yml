@@ -22,8 +22,8 @@ jobs:
       - name: Build and Push Docker Image
         uses: docker/build-push-action@v2
         with:
-          context: .  # The current directory where the Dockerfile is located
+          context: ./FranRGIS  # Set the build context to the FranRGIS folder where the .csproj file is
           push: true  # Push the image to Docker Hub
           tags: |
-            franpetkovic/franrgis:latest
-            franpetkovic/franrgis:${{ github.sha }}
+            franpetkovic/franrgis:latest  # Tag 'latest' for the image
+            franpetkovic/franrgis:${{ github.sha }}  # Tag with the specific commit SHA
