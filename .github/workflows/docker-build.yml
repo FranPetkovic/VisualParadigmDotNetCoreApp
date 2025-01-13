@@ -25,5 +25,5 @@ jobs:
           context: .  # The current directory where the Dockerfile is located
           push: true  # Push the image to Docker Hub
           tags: |
-            franpetkovic/franrgis:latest  # Tag 'latest' for the image
-            franpetkovic/franrgis:${{ github.sha }}  # Tag with the specific commit SHA
+            franpetkovic/franrgis:latest
+            franpetkovic/franrgis:${{ github.sha }}
