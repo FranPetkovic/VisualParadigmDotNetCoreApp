@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4Kf4ZEHRJjKPw8l7noErpv7H85qi5pWXVaDlvZxOZc/hVY2+2BZ/CbkeRNgKjUyzTjnTehZm0zjqUT5QT13R0g==",
+  "dgSpecHash": "xIrlsJGSyvpLNPaQYCjLJWR88oTLpEucwzS9hy2XOA3FQ23iPDoo3ZHy14NdsjXboUsG5EnHwt4/h8Q48IggJg==",
   "success": true,
-  "projectFilePath": "/Users/franpetkovic/Projects/FranRGIS/FranRGIS/FranRGIS.csproj",
+  "projectFilePath": "/Users/franpetkovic/Documents/VisualParadigmDotNetCoreApp/FranRGIS/FranRGIS.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/franpetkovic/Projects/FranRGIS/FranRGIS/FranRGIS.csproj": {}
+    "/Users/franpetkovic/Documents/VisualParadigmDotNetCoreApp/FranRGIS/FranRGIS.csproj": {}
   },
   "projects": {
-    "/Users/franpetkovic/Projects/FranRGIS/FranRGIS/FranRGIS.csproj": {
+    "/Users/franpetkovic/Documents/VisualParadigmDotNetCoreApp/FranRGIS/FranRGIS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/franpetkovic/Projects/FranRGIS/FranRGIS/FranRGIS.csproj",
+        "projectUniqueName": "/Users/franpetkovic/Documents/VisualParadigmDotNetCoreApp/FranRGIS/FranRGIS.csproj",
         "projectName": "FranRGIS",
-        "projectPath": "/Users/franpetkovic/Projects/FranRGIS/FranRGIS/FranRGIS.csproj",
+        "projectPath": "/Users/franpetkovic/Documents/VisualParadigmDotNetCoreApp/FranRGIS/FranRGIS.csproj",
         "packagesPath": "/Users/franpetkovic/.nuget/packages/",
-        "outputPath": "/Users/franpetkovic/Projects/FranRGIS/FranRGIS/obj/",
+        "outputPath": "/Users/franpetkovic/Documents/VisualParadigmDotNetCoreApp/FranRGIS/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/franpetkovic/.nuget/NuGet/NuGet.Config"
